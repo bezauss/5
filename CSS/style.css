@@ -235,62 +235,98 @@ ul li::marker{
 
 
 
-  body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    margin: 0 auto;
+.container-modules{
+  padding: 50px 0;
+  
 }
 
 .home-link {
-    display: block;
-    margin: 20px 0;
-    text-decoration: none;
-    color: #000;
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3f2aff;
+  background-image: url(../img/Arrow\ 1arr.png);
+  background-position:  left;
+  background-repeat: no-repeat;
+  padding-left: 52px;
+  margin-bottom: 25px;
 }
 
 .modules-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
 }
 
 .module-card {
-    background: #f0f0f0;
-    padding: 20px;
-    position: relative;
-    width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  width: 572px;
+  min-height: 505px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+  padding: 205px 25px 25px; 
+  position: relative;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.module-card:nth-child(2n){
+  margin-right: 0;
+}
+
+.module-card:last-child,
+.module-card:nth-last-child(2){
+  margin-bottom: 0;
 }
 
 .module-bg {
-    background-image: url('path/to/your/image.png');
-    background-size: cover;
-    height: 100px;
-    margin-bottom: 10px;
+  background-image: url('path/to/your/image.png');
+  background-size: cover;
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 .module-title {
-    font-size: 1.5em;
-    margin: 10px 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #3f2aff;
 }
 
 .lessons-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
 
 .module-number {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2em;
-    color: #ccc;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 2em;
+  font-size: 40px;
+  text-align: right;
+  color: #eaeaea;
 }
 
 .show-more {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+.logo-modules{
+  display: block;
+  width: 137;
+  margin-bottom: 25px;
+}
+
+.title-modules{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  color: #3f2aff;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
