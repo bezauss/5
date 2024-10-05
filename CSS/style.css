@@ -254,9 +254,11 @@ ul li::marker{
 
 .modules-list {
   list-style: none;
-  padding: 0;
+  padding: 0; 
   margin: 0;
   font-size: 0;
+  width: 572PX;
+  
 }
 
 .module-card {
@@ -265,6 +267,7 @@ ul li::marker{
   width: 572px;
   min-height: 505px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+  background; 
   padding: 205px 25px 25px; 
   position: relative;
   margin-right: 25px;
