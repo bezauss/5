@@ -237,7 +237,7 @@ ul li::marker{
 
 .container-modules{
   padding: 50px 0;
-  
+  font-size: 0;
 }
 
 .home-link {
@@ -256,9 +256,7 @@ ul li::marker{
   list-style: none;
   padding: 0; 
   margin: 0;
-  font-size: 0;
-  width: 572PX;
-  
+  font-size: 0; 
 }
 
 .module-card {
@@ -267,11 +265,27 @@ ul li::marker{
   width: 572px;
   min-height: 505px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
-  background; 
   padding: 205px 25px 25px; 
   position: relative;
   margin-right: 25px;
   margin-bottom: 25px;
+  background-repeat: no-repeat;
+}
+
+.module-card-1{
+  background-image: url(../img/photo-1.jpg);
+}
+
+.module-card-2{
+  background-image: url(../img/photo-2.jpg);
+}
+
+.module-card-3{
+  background-image: url(../img/photo-3.jpg);
+}
+
+.module-card-4{
+  background-image: url(../img/photo-4.jpg);
 }
 
 .module-card:nth-child(2n){
@@ -283,17 +297,14 @@ ul li::marker{
   margin-bottom: 0;
 }
 
-.module-bg {
-  background-image: url('path/to/your/image.png');
-  background-size: cover;
-  height: 100px;
-  margin-bottom: 10px;
-}
+
 
 .module-title {
   font-weight: 700;
   font-size: 40px;
   color: #3f2aff;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .lessons-list {
@@ -313,10 +324,21 @@ ul li::marker{
   color: #eaeaea;
 }
 
+
+
 .show-more {
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin: 0 auto;
+  border: 2px solid #3f2aff;
+  padding: 17px 35px;
   font-size: 1em;
+  display: block;
+  width: 274px;
+  height: 70px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #3f2aff;
 }
 
 .logo-modules{
