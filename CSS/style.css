@@ -257,6 +257,7 @@ ul li::marker{
   padding: 0; 
   margin: 0;
   font-size: 0; 
+  margin-bottom: 50px;
 }
 
 .module-card {
@@ -339,6 +340,7 @@ ul li::marker{
   font-size: 18px;
   text-align: center;
   color: #3f2aff;
+  background-color: transparent;
 }
 
 .logo-modules{
